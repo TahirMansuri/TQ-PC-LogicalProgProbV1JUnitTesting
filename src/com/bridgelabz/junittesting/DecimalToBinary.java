@@ -14,7 +14,7 @@ public class DecimalToBinary {
         int temp = num , i = 0, j = 0;
 
         //Initializing array for Storing Binary Values
-        int[] arr = new int[32];
+        int[] arr = new int[8];
 
         //Repeat till temp is zero
         while(temp != 0) {
